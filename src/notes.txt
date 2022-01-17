@@ -1,0 +1,25 @@
+1 hour = £1.50
+
+//this is what we expect calculateTotalCharge to return  when we oass in 1 hour 
+
+//setup
+output = expected
+input = result (num in brackets)
+
+const expected = 1.5
+
+1 in brackets is 1 in test case so if 2 is in brackets 
+1 in brackets is the input
+expected is the output
+
+addBagel(type)
+the type parameter is representing the value of the type e.g. cinnamon or blueberry
+
+when seeing type: type, this means:
+- the first type is the object key
+- the second type is the value of the parameter being parsed
+
+the basket.addBagels add the bagels, and to verify that its been added we do const bagels (result) = basket.getBagels()
+The getBagels checks to see if its been added as addBagels returns nothing
+
+In execute, always call the getBagels method to check if your code runs
